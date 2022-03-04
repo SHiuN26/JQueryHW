@@ -127,35 +127,54 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* ------------------------- */
+/* ----------------------------------- */
+body {
+  padding: 20px;
+}
+
 .top-icon {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 24px;
+  background: #eaeaeb;
+}
+.twitter {
+  color: #1DA1F2;
+}
+.fb {
+  color: #4267B2;
+}
+.icon :hover{
+  color: blue;
+  cursor: pointer;
+}
+.imgicon{
+  height: 12px;
+  width: 12px;
+  vertical-align: text-top;
 }
 .icon {
   float: right;
   padding: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 12px;
-  width: 120px;
+  width: 150px;
   text-align: center;
+  
 }
 .swiper {
   width: 100%;
-  height: 300px;
+  height: 30%;
 }
 img {
   width: 100%;
   vertical-align: baseline;
 }
-/* .nav {
-	box-sizing: 40px;
-} */
+
 .logo {
   width: 150px;
   height: 40px;
   float: left;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .menu {
   float: right;
@@ -164,7 +183,7 @@ img {
   text-decoration: none;
   padding: 11px 0;
   background: #fff;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   display: block;
   text-align: center;
   transition: all 0.3s;
@@ -183,32 +202,63 @@ img {
   z-index: 2;
   position: absolute;
 }
-.products li{
-	width: 100px;
+.products li {
+  width: 100px;
 }
 .flex-container {
-	display: flex;
-	justify-content: center;
-	margin-top: 40px;
-	width: 100%;
-	border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  /* border: 1px solid black; */
 }
 .context {
-	border: 1px solid black;
-	width: 300px;
-	margin: auto;
-	text-align: center;
-	padding: 8px;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 5px rgb(221, 221, 221);
+  width: 30%;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  border-bottom: rgb(185, 185, 185);
+  line-height: 25px;
+  margin: 0px 15px;
+  vertical-align: middle;
 }
-.book {
-	width: 150px;
-	height: 150px;
+.contextimg {
+  height: 50%;
+  position: relative;
 }
-.context h1{
-	font-weight: bold;
-	font-size: 24px;
+.course {
+  height: auto;
+  width: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.context h1 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 .context p {
-	text-align: justify;
-	font-size: 14px;
+  text-align: justify;
+  font-size: 14px;
 }
+.context ul {
+  text-align: left ; 
+  list-style: initial;
+  padding-left: px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+.context li {
+  text-align: left;
+  font-size: 14px;
+}
+.ultitle  {
+  margin-left: -22px;
+}
+

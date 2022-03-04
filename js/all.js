@@ -4,21 +4,21 @@ $(document).ready(function () {
         direction: 'horizontal',
         loop: true,
         speed: 800,
-        autoplay: {
-            delay: 500
-        },
+        // autoplay: {
+        //     delay: 500
+        // },
         
 
         //If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
+        // pagination: {
+        //     el: '.swiper-pagination',
+        // },
 
         // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
 
         
     });
