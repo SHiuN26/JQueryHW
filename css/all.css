@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------------------- */
+.top-icon {
+  border: 1px solid black;
+  height: 24px;
+}
+.icon {
+  float: right;
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 12px;
+  width: 120px;
+  text-align: center;
+}
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+img {
+  width: 100%;
+  vertical-align: baseline;
+}
+/* .nav {
+	box-sizing: 40px;
+} */
+.logo {
+  width: 150px;
+  height: 40px;
+  float: left;
+  border: 1px solid black;
+}
+.menu {
+  float: right;
+}
+.menu a {
+  text-decoration: none;
+  padding: 11px 0;
+  background: #fff;
+  border: 1px solid gray;
+  display: block;
+  text-align: center;
+  transition: all 0.3s;
+  font-size: 16px;
+  color: rgb(90, 214, 162);
+}
+.menu a:hover {
+  border-bottom: 3px solid rgb(90, 214, 162);
+}
+.menu > li {
+  width: 100px;
+  float: left;
+}
+.menu ul {
+  display: none;
+  z-index: 2;
+  position: absolute;
+}
+.products li{
+	width: 100px;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	width: 100%;
+	border: 1px solid black;
+}
+.context {
+	border: 1px solid black;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	padding: 8px;
+}
+.book {
+	width: 150px;
+	height: 150px;
+}
+.context h1{
+	font-weight: bold;
+	font-size: 24px;
+}
+.context p {
+	text-align: justify;
+	font-size: 14px;
+}
