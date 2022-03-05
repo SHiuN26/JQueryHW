@@ -371,3 +371,34 @@ tr {
   box-decoration: none;
   border: none;
 }
+.end {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+.contact {
+  font-weight: 900;
+}
+.ftlogo {
+  height: auto;
+  width: auto;
+  left: 0px;
+  display: inline-block;
+}
+.ftcontent {
+  float: right;
+  display: inline-block;
+}
+.contactpink {
+  color: #d413a4;
+}
+.totop {
+  position: fixed;
+  color: #fff;
+  background: #119600;
+  border-radius: 5px;
+  padding: 10px 5px;
+  right: 0px;
+  bottom: 0px;
+  border: 4px solid#1DA1F2;
+}

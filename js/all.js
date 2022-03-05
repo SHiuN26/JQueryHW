@@ -27,6 +27,12 @@ $(document).ready(function () {
         $(this).parent().siblings().find('ul').slideUp();
         $(this).parent().find('ul').slideToggle();
     });
+    $('.totop a').click(function (e) { 
+        e.preventDefault();
+        $('html,bodt').animate({
+            scrollTop: 0}
+            ,700);
+    });
 });
 // $('.cart > li > a').click(function(event) {
 //     event.preventDefault();
