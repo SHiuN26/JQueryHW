@@ -128,8 +128,12 @@ table {
   border-spacing: 0;
 }
 /* ----------------------------------- */
+html {
+  height: 100%;
+}
 body {
-  padding: 20px;
+  min-height: 100vh;
+  padding: 0 20px;
 }
 
 .top-icon {
@@ -163,7 +167,7 @@ body {
 }
 .swiper {
   width: 100%;
-  height: 30%;
+  /* height: 30%; */
 }
 img {
   width: 100%;
@@ -261,4 +265,109 @@ img {
 .ultitle  {
   margin-left: -22px;
 }
+.tb {
+  margin: 40px 0px;
+  position: relative;
+  /* border: 5px solid black; */
+}
+table {
+  width: 85%;
+  text-align: left;
+  margin-top: 40px;
+}
+.tabletitle {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 30px;
+  
+}
+.tablecontent{
+  margin: 0;
+  left: 50%;
+  line-height: 30px;
+  font-size: 14px;
+  width: 100%;
+}
 
+.trhead {
+  background: #f3f3f3;
+  border-top: 1px solid rgb(202, 202, 202);
+  border-bottom: 1px solid rgb(202, 202, 202);
+  font-weight: normal;
+  
+}
+tr {
+  border-bottom: 1px solid rgb(202, 202, 202);
+  font-weight: 900;
+}
+.tdtitle {
+  padding: 0 20px;
+}
+.tdbest {
+  color: rgb(90, 214, 162);
+}
+.feedback {
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(rgb(2, 110, 83),rgb(3, 165, 125));
+  color: white;
+  margin:auto;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+.fbktitle {
+  position: relative;
+  top: 40px ;
+  height: 20%;
+}
+.feedback h1{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.fbkcontent {
+  height: 65%;
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  justify-content: center;
+}
+.fbkleft, .fbkright {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  margin: 0px 20px;
+}
+.fbkright {
+  position: relative;
+}
+.fbkright input {
+  width: 100%;
+  line-height: 20px;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+.fbkright label {
+  line-height: 1.5em;
+}
+#submit {
+  position: absolute;
+  width: 60px;
+  padding: 2px 20px;
+  color: white;
+  background: rgb(12, 226, 173);
+  border-radius: 3px;
+  border: none;
+  right: 0px;
+  bottom: 0px;
+}
+#textarea {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  box-decoration: none;
+  border: none;
+}
