@@ -4,9 +4,9 @@ $(document).ready(function () {
         direction: 'horizontal',
         loop: true,
         speed: 800,
-        // autoplay: {
-        //     delay: 500
-        // },
+        autoplay: {
+            delay: 1000
+        },
         
 
         //If we need pagination
@@ -32,6 +32,13 @@ $(document).ready(function () {
         $('html,bodt').animate({
             scrollTop: 0}
             ,700);
+    });
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'positionFromTop': 350
+        // 'maxWidth': 600,
+        // 'maxHeight': 400
     });
 });
 // $('.cart > li > a').click(function(event) {
